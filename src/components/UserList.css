@@ -1,0 +1,43 @@
+
+.ulDiv{
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
+ul>div{
+    background-color: white;
+    margin-top: 30px;
+    max-width: 100%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(124, 124, 124);
+
+
+}
+
+ul>div:hover{
+    cursor: pointer;
+    /* transform: scale(1.01); */
+    background-color: rgb(235, 231, 231);
+
+}
+
+.startEndTimes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.startEndTimesLabel{
+    display: flex;
+    justify-content: space-between;
+
+}
+.calendarDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
